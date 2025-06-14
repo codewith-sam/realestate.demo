@@ -1,0 +1,95 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Elite Homes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background-color: #f4f6fa;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #001f3f;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    .section {
+      padding: 4rem 1rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .listings {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      overflow: hidden;
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card-body {
+      padding: 1rem;
+    }
+    .card-body h3 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+    .testimonial, .why-choose {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      margin-bottom: 2rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #001f3f;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Elite Homes</h1>
+    <p>Find your dream property today</p>
+  </header>  <section class="section">
+    <div class="why-choose">
+      <h2>Why Choose Us?</h2>
+      <p>We create fast, beautiful, and mobile-optimized websites that help real estate agents build trust and attract more clients. No technical knowledge needed — just results that speak for themselves.</p>
+    </div>
+  </section>  <section class="section">
+    <h2 style="margin-bottom: 2rem;">Featured Listings</h2>
+    <div class="listings">
+      <div class="card">
+        <img src="https://source.unsplash.com/600x400/?house" alt="House 1">
+        <div class="card-body">
+          <h3>Modern Villa in California</h3>
+          <p>$1,200,000 • 4 Bed • 3 Bath</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://source.unsplash.com/601x400/?real-estate" alt="House 2">
+        <div class="card-body">
+          <h3>Luxury Apartment in NY</h3>
+          <p>$850,000 • 2 Bed • 2 Bath</p>
+        </div>
+      </div>
+      <div class
